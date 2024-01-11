@@ -1,10 +1,12 @@
 import Image from 'next/image'
+import Greeting from './home_assets/greeting'
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen px-80">
-      <div className='w-full border-2 border-black'>
-        <div>
+    <main className="w-full h-screen ">
+      <Greeting />
+      <div className='w-auto h-1/3 mx-96 border-2 border-black'>
+        <div className=''>
           <h1 className='sm:text-5xl'>Header</h1>
         </div>
         <div></div>
@@ -15,7 +17,6 @@ export default function Home() {
           alt='Resim'
           /> */}
       </div>
-      <p>merhaba</p>
     </main>
   )
 }
