@@ -1,10 +1,4 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import MyNavBar from './home_assets/nav'
-import Footer from './home_assets/footer'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Harun Onur',
@@ -18,14 +12,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
-        <MyNavBar />
-        <main className="w-full">
+      <div>
         {children}
-        </main>
-        <Footer />
-      </body>
-    </html>
+      </div>
   )
 }

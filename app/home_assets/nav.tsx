@@ -1,5 +1,5 @@
 'use client'
-// Import React and necessary Next.js modules if not already imported
+
 import React, { useState} from 'react';
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white p-4 z-10">
+    <nav className="bg-white p-4 z-10 border-b-2">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-2xl font-bold text-gray-800">
