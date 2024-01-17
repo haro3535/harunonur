@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Harun Onur',
+  title: 'Projects',
   description: 
-      'Welcome to my personal webpage! I\'m a 3rd-year Computer Engineering student passionate about both frontend and backend development. Every day is an opportunity to learn and improve. Join me on this coding journey as I showcase my projects and continuous exploration in the tech world.',
+      'Explore my completed and ongoing projects, each with a unique name, description, and screenshots. Check them out on GitHub too.',
 }
 
 export default function RootLayout({
