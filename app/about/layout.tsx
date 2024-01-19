@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-      <div>
+      <div className='w-full lg:w-2/3'>
         {children}
       </div>
   )

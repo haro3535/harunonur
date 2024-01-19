@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <MyNavBar />
-        <main className="w-full">
+        <main className="w-full flex flex-col justify-center items-center">
         {children}
         </main>
         <Footer />
