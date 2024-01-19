@@ -30,13 +30,13 @@ export default function Home() {
             <div className='w-full px-6'>
               <p>Hi everyone!</p>
               <br />
-              <p>I'm Harun, currently studying Computer Engineering at Izmir University of Economics. 
-                I created this website to display my projects and other things I'm involved in. 
-                I've always been a curious person, and that curiosity has kept me continuously gaining knowledge.
+              <p>I&apos;m Harun, currently studying Computer Engineering at Izmir University of Economics. 
+                I created this website to display my projects and other things I&apos;m involved in. 
+                I&apos;ve always been a curious person, and that curiosity has kept me continuously gaining knowledge.
                 <br /> 
                 <br />
-                Sports have always been a part of my life. I've been into swimming, calisthenics, football, skating, sailing, ice skating, and tennis. 
-                I also play the guitar. I wouldn't say I'm really good at it, but I'm probably an intermediate-level guitarist.
+                Sports have always been a part of my life. I&apos;ve been into swimming, calisthenics, football, skating, sailing, ice skating, and tennis. 
+                I also play the guitar. I wouldn&apos;t say I&apos;m really good at it, but I&apos;m probably an intermediate-level guitarist.
                 <br />
                 <br /> 
                 Model rockets and jet engines are my hobbies. I love watching videos about building rockets or jet engines. One day, I hope to build my own rockets and jet engines.
