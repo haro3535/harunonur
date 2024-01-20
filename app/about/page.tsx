@@ -3,8 +3,8 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className='flex justify-center'>
-        <div className='w-full border-2 py-2 space-y-6'>
-          <div id='card' className='w-full flex flex-col lg:flex-row items-center border-b-2 py-8'>
+        <div className='w-full divide-y py-2 space-y-6'>
+          <div id='card' className='w-full flex flex-col lg:flex-row items-center py-8'>
             <div className='lg:w-1/2 w-full lg:pr-16 min-w-64 flex lg:justify-end justify-center'>
               <div className='w-64 h-64 rounded-full relative'>
                 <Image
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='w-full flex flex-col justify-center items-center px-10'>
+          <div className='w-full flex flex-col justify-center items-center pt-8 px-10'>
             <p>You can open my CV by clicking the link belove!</p>
             <br />
             <a href="Personal Resume.pdf" className='hover:opacity-50' title='Harun Onur CV' target="_blank">
@@ -55,7 +55,7 @@ export default function Home() {
             <br />
           </div>
 
-          <div id='social-media' className='w-full h-24 flex justify-evenly md:justify-center'>
+          <div id='social-media' className='w-full h-24 flex justify-evenly md:justify-center pt-8'>
             <div className='w-1/6 h-full flex flex-col justify-evenly items-center '>
               <a href="https://github.com/haro3535" rel='noopener' title='/haro3535' target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" className="bi bi-github transition ease-in-out hover:opacity-70 hover:scale-125" viewBox="0 0 16 16">
