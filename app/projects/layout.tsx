@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-      <div className='w-2/3'>
+      <div className='w-10/12 sm:w-2/3'>
         {children}
       </div>
   )
