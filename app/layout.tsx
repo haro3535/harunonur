@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import MyNavBar from './home_assets/nav'
+import Footer from './home_assets/footer'
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -19,11 +21,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
+        <MyNavBar />
+        <main className="w-full flex flex-col justify-center items-center">
         {children}
-        <Analytics />
-        <SpeedInsights />
-        </body>
+        </main>
+        <Footer />
+      </body>
     </html>
   )
 }
