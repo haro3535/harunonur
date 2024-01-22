@@ -11,7 +11,7 @@ export default function Home() {
                   alt='pp'
                   className='object-cover rounded-full'
                   fill={true}
-                  src={'/image1.jpg'}
+                  src={'/pp.jpg'}
                   />
               </div>
             </div>
@@ -20,7 +20,7 @@ export default function Home() {
               <p className='text-md font-bold'>Name</p>
               <p id='name' className='lg:ml-4 text-xl'>Harun Onur</p>
               <p className='text-md font-bold'>Education</p>
-              <p id='education' className='lg:ml-4 text-xl'>İzmir Ekonomi Üniversitesi</p>
+              <p id='education' className='lg:ml-4 text-xl'>Izmir University of Economics</p>
               <p className='text-md font-bold'>Position</p>
               <p id='position' className='lg:ml-4 text-xl'>Computer Engineering Student</p>
             </div>
