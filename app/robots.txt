@@ -1,4 +1,5 @@
 User-Agent: *
+Allow: /
 Disallow: /private/
 
 Sitemap: https://harunonur.com/sitemap.xml
