@@ -8,13 +8,13 @@ export default function Greeting(){
                 <p className="text-xl">You can begin exploring by navigating to my other pages.</p>
                 <div className="w-full md:w-1/4 flex justify-start space-x-12 md:justify-around ">
                     <a href="/projects" className="rounded-3xl">
-                        <div className="rounded-3xl py-2 px-4 border-2 ease-in-out duration-300 border-black/[.45] hover:bg-black/[.45] hover:text-white">
-                            <p>Projects</p>
+                        <div className="rounded-3xl py-2 px-4 border ease-linear border-white  duration-300  hover:border-black/50">
+                            <p className="underline">Projects</p>
                         </div>
                     </a>
                     <a href="/about" className="rounded-3xl">
-                        <div className="rounded-3xl py-2 px-4 border-2 ease-in-out duration-300 border-black/[.45] hover:bg-black/[.45] hover:text-white">
-                            <p>About</p>
+                        <div className="rounded-3xl py-2 px-4 border ease-linear border-white  duration-300  hover:border-black/50">
+                            <p className="underline">About</p>
                         </div>
                     </a>
                 </div>
